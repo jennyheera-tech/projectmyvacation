@@ -12,6 +12,7 @@
         width: 500px;
         display: flex;
         gap: 10px;
+        background: ;
     }
 
     input {
@@ -45,10 +46,9 @@
         font-size: 14px;
         font-weight: 600;
         cursor: pointer;
-        transition: transform 0.05s ease, background 0.15s ease;
+        transition: transform 0.05s ease;
 
         &:hover {
-            background: #ee55e1;
         }
 
         &:active {
