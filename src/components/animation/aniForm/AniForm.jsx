@@ -24,7 +24,7 @@ const AniForm = ({ onSearch, onSort }) => {
                     type="text"
                     name="text"
                     id=""
-                    placeholder="검색어를 입력하세요"
+                    placeholder="제목을 입력하세요"
                     value={text}
                     onChange={changeInput}
                 />

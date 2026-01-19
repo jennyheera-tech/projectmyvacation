@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 const MovieForm = ({ onSearch, onSort }) => {
-      const [text, setText] = useState('');
+    const [text, setText] = useState('');
     const onSubmit = (e) => {
         e.preventDefault();
         onSearch(text);
@@ -23,7 +23,7 @@ const MovieForm = ({ onSearch, onSort }) => {
                     type="text"
                     name="text"
                     id=""
-                    placeholder="검색어를 입력하세요"
+                    placeholder="제목을 입력하세요"
                     value={text}
                     onChange={changeInput}
                 />
