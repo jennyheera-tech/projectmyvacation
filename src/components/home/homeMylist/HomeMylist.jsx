@@ -1,7 +1,7 @@
-import HomeMyItem from './homeMyItem';
+import HomeMyItem from './HomeMyItem';
 import './style.css';
 
-const HomeMylist = ({ data,onDel }) => {
+const HomeMylist = ({ data, onDel }) => {
     return (
         <ul className="list">
             {data.map((item) => (
